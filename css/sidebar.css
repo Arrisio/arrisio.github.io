@@ -1,0 +1,28 @@
+.sidebar {
+  grid-area: sidebar;
+  max-width: 200px;
+}
+
+.menu__list {
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+
+
+.menu__link {
+  display: grid;
+  /* margin: 27px; */
+  margin-top: 29px;
+  margin-left: 19px;
+  grid-template-columns: 24px 1fr;
+  justify-content: start;
+  gap: 12px;
+  font-size: 16px;
+  text-decoration: none;
+  color: rgba(236, 30, 121, 0.7);
+  font-weight: 700;
+}
+
+.menu__text--active {
+  color: black;
+}
