@@ -56,9 +56,20 @@
 
 
 
+.feature_point__img_wrapper {
+  vertical-align: middle;
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  background-color: #27273e;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+  margin-bottom: 35px;
+}
+
 .feature_point__img {
-  /* vertical-align: middle; */
-  margin-bottom: 10px;
+  margin-top: 21px;
 }
 
 .feature_point__name {
@@ -207,6 +218,3 @@
   background-color: #27273e;
   color: white;
 }
-
-
-
