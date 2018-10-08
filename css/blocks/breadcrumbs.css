@@ -1,0 +1,28 @@
+.breadcrumbs {
+	font-family: "GothamPro";
+	font-weight: 40;
+	font-style: italic;
+	font-size: 14px;
+	color: rgba(236, 30, 121, 1);
+	margin-bottom: 15px;
+}
+
+.breadcrumbs__list {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.breadcrumbs__item::before {
+	content: "/";
+	margin: auto 4px;
+}
+
+.breadcrumbs__item:first-child::before {
+	content: "";
+	margin: auto 0;
+}
+
+.breadcrumbs__item--active,
+.breadcrumbs__item:hover {
+	color: black;
+}

@@ -1,0 +1,51 @@
+.feature_point {
+	max-width: 210px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.feature_point__img_wrapper {
+	width: 68px;
+	height: 68px;
+
+	background-color: #27273e;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: auto;
+	margin-bottom: 35px;
+
+
+}
+
+.feature_point__name {
+	font-size: 11px;
+	font-weight: 700;
+	text-align: center;
+	letter-spacing: 2.6px;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+.feature_point__description {
+	text-align: center;
+	font-size: 18px;
+	line-height: 30px;
+	margin-bottom: 8px;
+}
+
+.feature_point__list {
+	text-align: left;
+}
+
+.feature_point__list_item {
+	margin-bottom: 15px;
+	font-size: 18px
+}
+
+.feature_point__list_item::before {
+	content: "\2022";
+	color: #cc3366;
+	margin-right: 28px;
+	vertical-align: middle;
+}

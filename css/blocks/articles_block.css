@@ -1,0 +1,24 @@
+.articles_block {
+	margin-bottom: 70px;
+}
+
+.articles_block__list_wrapper {
+	margin-bottom: 65px;
+}
+
+.articles_block__item {
+	padding-bottom: 20px;
+	border-bottom: 2px solid #f5f5f5;
+	margin-bottom: 25px;
+}
+
+.articles_block__item:last-child {
+	/*ты, вроде , говорил что иначе прыгать может*/
+	border-bottom: 2px solid transparent;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.articles_block__title {
+	margin-bottom: 70px;
+}

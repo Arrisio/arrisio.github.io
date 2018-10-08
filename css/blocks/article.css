@@ -1,0 +1,44 @@
+.article {
+	display: flex;
+}
+
+.article__img_wrapper {
+	width: 160px;
+	height: 160px;
+	overflow: hidden;
+	flex-shrink: 0;
+	margin-right: 18px;
+
+}
+
+.article__img {
+	object-fit: cover;
+	display: block;
+	border-style: none;
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.article__date {
+	font-family: "Roboto";
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.article__title {
+	font-size: 18px;
+	font-family: "Roboto";
+	font-weight: bold;
+	font-style: normal;
+	margin-bottom: 11px;
+}
+
+.article__text {
+	font-size: 18px;
+	font-family: "Roboto";
+	font-weight: 300;
+	font-style: normal;
+	line-height: 30px;
+
+}

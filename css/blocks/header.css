@@ -1,0 +1,36 @@
+.header {
+  background-color: #27273e;
+  margin-bottom: 40px;
+}
+
+.header.index_page {
+  margin-bottom: 55px;
+}
+
+.header .container {
+  align-items: center;
+}
+
+.header__logo_pic {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+
+.header__contact_info {
+  text-align: right;
+}
+
+.contact_info__phone_link {
+  font-weight: 700;
+  font-size: 21px;
+  color: #fff;
+}
+
+.contact_info__worktime_link {
+  font-size: 14px;
+  color: rgba(236, 30, 121, 0.7);
+  text-decoration: underline;
+  font-family: "open_sansbold", "GothamPro", "Roboto", "Arial";
+  font-weight: 700;
+}

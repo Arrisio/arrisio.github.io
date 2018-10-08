@@ -1,0 +1,18 @@
+.prices_block {
+	margin-bottom: 30px;
+}
+
+.prices_block__title {
+	margin-bottom: 40px;
+}
+
+.prices_block__list {
+	display: flex;
+	flex-wrap: wrap;
+	margin: -25px;
+
+}
+
+.prices_block__item {
+	margin: 25px;
+}

@@ -1,0 +1,49 @@
+.pagination {
+	display: flex;
+	justify-content: center;
+	/* text-align: center; */
+	font-family: "Roboto";
+	font-size: 14px;
+
+}
+
+.pagination__text {
+	display: flex;
+	align-items: center;
+	font-weight: 300;
+	margin-right: 15px;
+}
+
+.pagination__list {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.pagination__item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* vertical-align: top; */
+	font-weight: bold;
+	/* margin-right: 5px; */
+
+}
+
+.pagination__link {
+	color: #000;
+	min-width: 25px;
+	height: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	border-radius: 3px;
+}
+
+.pagination__link:hover,
+.pagination__link--current {
+	background-color: #27273e;
+	color: white;
+
+}

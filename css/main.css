@@ -1,31 +1,18 @@
-html,
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-}
+@import url('./layout/fonts.css');
+@import url('./layout/normalize.css');
+@import url('./layout/base.css');
 
-body {
-  font-family: "GothamPro", "Roboto", "Arial";
-  /* font-weight: bolder; */
-  /* -webkit-font-smoothing: antialiased; */
-  /* -moz-osx-font-smoothing: grayscale; */
-}
-
-.wrapper {
-  margin: auto;
-  min-height: 100%;
-  display: grid;
-  grid-template-rows: 80px 40px 359px auto 80px;
-  grid-template-columns: 200px auto;
-  max-width: 1100px;
-  grid-template-areas: "header header""banner banner""space space""sidebar main""footer footer"
-}
-
-ul li {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
+@import url('./blocks/header.css');
+@import url('./blocks/banner.css');
+@import url('./blocks/breadcrumbs.css');
+@import url('./blocks/sidebar.css');
+@import url('./blocks/content.css');
+@import url('./blocks/features.css');
+@import url('./blocks/feature_point.css');
+@import url('./blocks/prices_block.css');
+@import url('./blocks/price.css');
+@import url('./blocks/partners.css');
+@import url('./blocks/articles_block.css');
+@import url('./blocks/article.css');
+@import url('./blocks/pagination.css');
+@import url('./blocks/footer.css');

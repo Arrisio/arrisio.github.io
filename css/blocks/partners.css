@@ -1,0 +1,35 @@
+.partners {
+	margin-bottom: 50px;
+}
+
+.partners__title {
+	margin-bottom: 55px;
+}
+
+.partners__logo_list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-content: flex-start;
+	flex-direction: row;
+}
+
+.partners__logo_item {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	margin-right: 130px;
+	margin-bottom: 40px;
+
+}
+
+.partners__img_wrapper {
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: top left;
+	filter: grayscale(100%);
+}
+
+.partners__img_wrapper:hover {
+	filter: grayscale(0);
+}

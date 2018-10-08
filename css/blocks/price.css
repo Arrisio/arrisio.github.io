@@ -1,0 +1,72 @@
+.price {
+	max-width: 250px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.price__img_wrapper {
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+
+	margin-bottom: 25px;
+}
+
+.price__img_overlay {
+	font-size: 24px;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.42;
+	text-transform: uppercase;
+	text-align: center;
+
+	background-color: #27273e;
+	opacity: 0.85;
+
+	width: 245px;
+	height: 150px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.price__img_overlay:hover {
+	background-color: rgba(255, 255, 255, 0);
+}
+
+.price__img_overlay_text {
+	color: #5dd1f8;
+	max-width: 100%;
+}
+
+.price__vip.price__img_overlay_text::before {
+	content: "VIP";
+	color: #ec1e79;
+	display: block;
+}
+
+
+.price__name {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 21px;
+	text-align: center;
+	max-width: 210px;
+	margin-bottom: 10px;
+}
+
+.price__description {
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 21px;
+	text-align: center;
+}

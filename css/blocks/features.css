@@ -1,0 +1,13 @@
+.features__title {
+	margin-bottom: 57px;
+}
+
+
+.features__features_list {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.features__feature_point {
+	margin: 0 40px 0 25px;
+}
