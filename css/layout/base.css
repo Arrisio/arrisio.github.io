@@ -36,6 +36,10 @@ body {
 
 }
 
+.container_wraped {
+  flex-wrap: wrap;
+}
+
 .pic_in_center_circle_background {
   border-radius: 50%;
   display: flex;

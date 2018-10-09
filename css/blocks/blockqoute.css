@@ -1,0 +1,23 @@
+.blockqoute {
+	width: 100%;
+	/* min-height: 175px; */
+	background: #27273e;
+	color: white;
+	background-image: url('/img/pattern.png');
+	display: flex;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+.blockqoute__content {
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 30px;
+	margin: 45px 21%;
+
+}
+
+.blockqoute__content--highlighted {
+	color: rgba(236, 30, 121, 1);
+	font-weight: 700;
+}
