@@ -90,6 +90,11 @@
 	position: relative;
 	margin-right: 20px;
 	cursor: pointer;
+
+}
+
+.form__radio_area:focus {
+	border: 3px solid #ec1e79;
 }
 
 .form__radio {
@@ -110,6 +115,8 @@
 	border: 1px solid #bcbcbc;
 }
 
+
+
 .form__radio_fake::after {
 	content: "";
 	position: absolute;
@@ -122,6 +129,8 @@
 	background: #ec1e79;
 	transition: all .2s;
 }
+
+
 
 .form__radio:checked+.form__radio_fake {
 	border: 1px solid #ec1e79;
@@ -150,8 +159,12 @@
 
 }
 
-.form__submit:hover,
+.form__submit:hover {
+	background: #ec1e79;
+	border: 3px solid rgb(181, 47, 214);
+}
+
 .form__submit:focus {
 	background: #ec1e79;
-	border: 3px solid transparent;
+	border: 3px solid #62068d;
 }
