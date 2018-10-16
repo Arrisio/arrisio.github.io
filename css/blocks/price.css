@@ -37,23 +37,30 @@
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	transition: background-color .3s;
+	transition: opacity .3s;
+	opacity: 1;
 }
 
 .price__img_overlay:hover {
-	background-color: rgba(255, 255, 255, 0);
+	/* background-color: rgba(255, 255, 255, 0); */
+	opacity: 0;
 }
 
 .price__img_overlay_text {
 	color: #5dd1f8;
 	max-width: 100%;
+
+	opacity: inherit;
+
 }
 
 .price__vip.price__img_overlay_text::before {
 	content: "VIP";
 	color: #ec1e79;
 	display: block;
+
 }
+
 
 
 .price__name {

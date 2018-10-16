@@ -136,6 +136,10 @@
 	border: 1px solid #ec1e79;
 }
 
+.form__radio:focus+.form__radio_fake {
+	box-shadow: 0 0 5px #ec1e79;
+}
+
 .form__radio:checked+.form__radio_fake::after {
 	border: 1px solid #ec1e79;
 	width: 5px;
