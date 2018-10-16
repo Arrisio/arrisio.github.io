@@ -4,6 +4,10 @@
 	justify-content: flex-end;
 }
 
+.index_page .article {
+	font-family: "Roboto";
+}
+
 .article__img_wrapper {
 	background-image: url('/img/ellipse-1.png');
 	background-repeat: no-repeat;
@@ -15,7 +19,7 @@
 
 	flex-shrink: 0;
 	margin-right: 18px;
-	object-fit: cover;
+
 }
 
 .v2 .index_page .article__img_wrapper {
@@ -44,7 +48,6 @@
 
 
 .article__date {
-	font-family: "Roboto";
 	font-weight: 300;
 	font-size: 14px;
 	line-height: 21px;
@@ -52,15 +55,12 @@
 
 .article__title {
 	font-size: 18px;
-	font-family: "Roboto";
-	font-weight: bold;
 	font-style: normal;
 	margin-bottom: 11px;
 }
 
 .article__text {
 	font-size: 18px;
-	font-family: "Roboto";
 	font-weight: 300;
 	font-style: normal;
 	line-height: 30px;
