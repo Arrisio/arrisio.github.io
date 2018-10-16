@@ -10,12 +10,12 @@
   <!-- <script src="main.js"></script> -->
 </head>
 
-<body>
+<body class="v2">
   <div class="wrapper">
     <div class="header">
       <div class="container">
         <div class="header__logo_pic logo-fig">
-          <a href="/index.html">
+          <a href="/main.html">
             <img src="/img/logo-fig.png" alt="logo-fig">
           </a>
         </div>
@@ -25,7 +25,18 @@
           </div>
           <div class="contact_info__worktime">
             <a class="contact_info__worktime_link" href="#">График работы</a>
+
+            <div class="worktime">
+              <div class="worktime__empty_space"></div>
+              <!-- <div class="worktime__triangle"></div> -->
+              <div class="worktime_details">
+                <div class="worktime__triangle"></div>
+                <div class="worktime__weekdays highlited">пн-вс: 09:00-20:00</div>
+                <div class="worktime__dinner">обед: 14:00-14:30</div>
+              </div>
+            </div>
           </div>
+
         </address>
       </div>
     </div>
@@ -33,10 +44,87 @@
     <div class="container wrapper__content">
       <!--Start Sidebar&content-->
       <aside class="sidebar">
-        <nav class="menu">
+        <section class="partners">
+          <h3 class="partners__title">
+            Партнёры
+          </h3>
+          <div class="partners__logo_list_wrapper">
+            <ul class="partners__logo_list">
+              <li class="partners__logo_item">
+                <div class="partners__img_wrapper">
+                  <img class="partners__img" src="/img/logo-1.png" alt="logo-1.png">
+                </div>
+              </li>
+
+              <li class="partners__logo_item">
+                <div class="partners__img_wrapper">
+                  <img class="partners__img" src="/img/logo-2.png" alt="logo-2.png">
+                </div>
+              </li>
+
+              <li class="partners__logo_item">
+                <div class="partners__img_wrapper">
+                  <img class="partners__img" src="/img/logo-3.png" alt="logo-3.png">
+                </div>
+              </li>
+
+              <li class="partners__logo_item">
+                <div class="partners__img_wrapper">
+                  <img class="partners__img" src="/img/logo-4.png" alt="logo-4.png">
+                </div>
+              </li>
+
+              <li class="partners__logo_item">
+                <div class="partners__img_wrapper">
+                  <img class="partners__img" src="/img/logo-5.png" alt="logo-5.png">
+                </div>
+              </li>
+
+              <li class="partners__logo_item">
+                <div class="partners__img_wrapper">
+                  <img class="partners__img" src="/img/logo-6.png" alt="logo-6.png">
+                </div>
+              </li>
+            </ul>
+
+
+          </div>
+        </section>
+        <div class="social_links">
+
+          <div class="social_links__label">Наши социальные сети</div>
+          <div class="social_links__list_wrapper">
+            <ul class="social_links__list">
+              <li class="social_links__item social_links__item--active">
+                <a class="social_links__link social_links__link-vk" href="#">
+                </a>
+              </li>
+              <li class="social_links__item">
+                <a class="social_links__link social_links__link-fb" href="#">
+                </a>
+              </li>
+              <li class="social_links__item">
+                <a class="social_links__link social_links__link-google" href="#">
+                </a>
+              </li>
+              <li class="social_links__item">
+                <a class="social_links__link social_links__link-twitter" href="#">
+                </a>
+              </li>
+              <li class="social_links__item">
+                <a class="social_links__link social_links__link-mail" href="#">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </aside>
+
+      <main class="content">
+        <nav class="menu menu--horisontal">
           <ul class="menu__list">
             <li class="menu__item">
-              <a href="/index.html" class="menu__link menu__link--main  ">главная</a>
+              <a href="/main.html" class="menu__link menu__link--main  ">главная</a>
             </li>
             <li class="menu__item">
               <a href="/feeds.html" class="menu__link menu__link--feed">отзывы
@@ -46,19 +134,6 @@
               <a href="/prices.html" class="menu__link menu__link--prices menu__link--active">тарифы</a>
             </li>
           </ul>
-        </nav>
-      </aside>
-
-      <main class="content">
-        <nav class="content__breadcrumbs breadcrumbs">
-          <ul class="breadcrumbs__list">
-            <li class="breadcrumbs__item">Главная</li>
-            <li class="
-              breadcrumbs__item
-              breadcrumbs__item--active
-            ">Тарифы</li>
-          </ul>
-
         </nav>
         <section class="content__prices_block prices_block">
           <h2 class="prices_block__title">Тарифы</h2>
@@ -184,52 +259,7 @@
 
           </div>
         </section>
-        <section class="partners">
-          <h2 class="partners__title">
-            Партнёры
-          </h2>
-          <div class="partners__logo_list_wrapper">
-            <ul class="partners__logo_list">
-              <li class="partners__logo_item">
-                <div class="partners__img_wrapper">
-                  <img class="partners__img" src="/img/logo-1.png" alt="logo-1.png">
-                </div>
-              </li>
 
-              <li class="partners__logo_item">
-                <div class="partners__img_wrapper">
-                  <img class="partners__img" src="/img/logo-2.png" alt="logo-2.png">
-                </div>
-              </li>
-
-              <li class="partners__logo_item">
-                <div class="partners__img_wrapper">
-                  <img class="partners__img" src="/img/logo-3.png" alt="logo-3.png">
-                </div>
-              </li>
-
-              <li class="partners__logo_item">
-                <div class="partners__img_wrapper">
-                  <img class="partners__img" src="/img/logo-4.png" alt="logo-4.png">
-                </div>
-              </li>
-
-              <li class="partners__logo_item">
-                <div class="partners__img_wrapper">
-                  <img class="partners__img" src="/img/logo-5.png" alt="logo-5.png">
-                </div>
-              </li>
-
-              <li class="partners__logo_item">
-                <div class="partners__img_wrapper">
-                  <img class="partners__img" src="/img/logo-6.png" alt="logo-6.png">
-                </div>
-              </li>
-            </ul>
-
-
-          </div>
-        </section>
 
 
       </main>
@@ -239,60 +269,28 @@
     <!--Container-->
 
 
-    <footer class="footer">
-      <div class="container">
-        <div class="footer__autor_info_wpapper footer__col">
-          <div class="footer__author_info">
-            Сделано рандомным тыканьем левой пяткой по клавиатуре на курсе «HTML + CSS» в LoftSchool.<br> Автор работы:
-            Дмитрий
-            Сучков
-          </div>
-        </div>
-        <div class="footer__logo_pic footer__col">
-          <img src="./img/logo-fig.png" alt="logo-fig">
-        </div>
 
-
-        <div class="footer__col footer__col--right">
-          <div class="footer__social  social">
-
-            <div class="social__label">Наши социальные сети</div>
-            <div class="social__list_wrapper">
-              <ul class="social__list">
-                <li class="social__item social__item--active">
-                  <a class="social__link" href="#">
-                    <img class="social__icon" src="./img/vk.png" alt="VK">
-                  </a>
-                </li>
-                <li class="social__item">
-                  <a class="social__link" href="#">
-                    <img class="social__icon" src="./img/fb.png" alt="FaceBook">
-                  </a>
-                </li>
-                <li class="social__item">
-                  <a class="social__link" href="#">
-                    <img class="social__icon" src="./img/google.png" alt="Google">
-                  </a>
-                </li>
-                <li class="social__item">
-                  <a class="social__link" href="#">
-                    <img class="social__icon" src="./img/twitter.png" alt="Twitter">
-                  </a>
-                </li>
-                <li class="social__item">
-                  <a class="social__link" href="#">
-                    <img class="social__icon" src="./img/mail.png" alt="Mail">
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
+  </div>
+  <footer class="footer dark_background">
+    <div class="container">
+      <div class="footer__autor_info_wpapper footer__col ">
+        <div class="footer__author_info">
+          Сделано рандомным тыканьем левой пяткой по клавиатуре на курсе «HTML + CSS» в LoftSchool.<br> Автор работы:
+          Дмитрий
+          Сучков
         </div>
       </div>
+      <!-- <div class="footer__logo_pic footer__col">
+        <img src="./img/logo-fig.png" alt="logo-fig">
+      </div> -->
 
-    </footer>
-  </div>
 
+      <div class="footer__col footer__col--right">
+        <img src="./img/logo-fig.png" alt="logo-fig">
+      </div>
+    </div>
+
+  </footer>
 
 </body>
 

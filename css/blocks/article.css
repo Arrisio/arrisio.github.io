@@ -1,5 +1,7 @@
 .article {
 	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
 }
 
 .article__img_wrapper {
@@ -14,6 +16,11 @@
 	flex-shrink: 0;
 	margin-right: 18px;
 	object-fit: cover;
+}
+
+.v2 .index_page .article__img_wrapper {
+	width: 175px;
+	height: 175px;
 }
 
 .article__img {
@@ -57,5 +64,5 @@
 	font-weight: 300;
 	font-style: normal;
 	line-height: 30px;
-
+	border-radius: 5px;
 }

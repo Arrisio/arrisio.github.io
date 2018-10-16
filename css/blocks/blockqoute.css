@@ -9,6 +9,10 @@
 	margin-bottom: 50px;
 }
 
+.sidebar .blockqoute {
+	background-image: url('/img/-e-Rectangle\ 1.png');
+}
+
 .blockqoute__content {
 	font-size: 18px;
 	font-weight: 300;

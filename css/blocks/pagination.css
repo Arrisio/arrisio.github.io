@@ -41,9 +41,13 @@
 	border-radius: 3px;
 }
 
-.pagination__link:hover,
+
 .pagination__link--current {
 	background-color: #27273e;
 	color: rgba(236, 30, 121, 1);
 
+}
+
+.pagination__link:hover {
+	color: #ae2264
 }

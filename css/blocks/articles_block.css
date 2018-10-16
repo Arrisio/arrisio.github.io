@@ -1,9 +1,16 @@
 .articles_block {
 	margin-bottom: 70px;
+	display: flex;
+	flex-direction: column;
+
 }
 
 .articles_block__list_wrapper {
 	margin-bottom: 65px;
+}
+
+.v2 .articles_block__list_wrapper {
+	margin-bottom: 40px;
 }
 
 .articles_block__item {
@@ -21,4 +28,13 @@
 
 .articles_block__title {
 	margin-bottom: 70px;
+}
+
+.v2 .content__articles_block {
+	align-items: flex-start;
+	margin-bottom: 55px;
+}
+
+.v2 .articles_block__pagination {
+	margin-left: 200px;
 }

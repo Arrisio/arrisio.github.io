@@ -1,8 +1,13 @@
 .feature_point {
-	max-width: 210px;
+	font-size: 18px;
+	max-width: 100%;
 	display: flex;
 	flex-direction: column;
 	text-align: center;
+}
+
+.v2 .feature_point {
+	border: solid 1px #e8e9ed;
 }
 
 .feature_point__img_wrapper {
@@ -14,8 +19,11 @@
 	background-position: center;
 	margin: auto;
 	margin-bottom: 35px;
+}
 
-
+.feature_point__title {
+	margin: 30px auto;
+	text-transform: uppercase;
 }
 
 .feature_point__name {
@@ -29,18 +37,24 @@
 
 .feature_point__description {
 	text-align: center;
-	font-size: 18px;
 	line-height: 30px;
 	margin-bottom: 8px;
+	font-weight: normal;
 }
 
 .feature_point__list {
+	margin-left: 5%;
 	text-align: left;
+	font-weight: normal;
+}
+
+.v2 .feature_point__list {
+	margin-left: 25%;
 }
 
 .feature_point__list_item {
+
 	margin-bottom: 15px;
-	font-size: 18px
 }
 
 .feature_point__list_item::before {

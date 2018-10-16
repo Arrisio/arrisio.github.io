@@ -9,6 +9,8 @@ body {
   --wrbkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #221f1f;
+  font-weight: 700;
+  font-size: 14px;
   /* line-height: 1.42; */
 }
 
@@ -20,6 +22,11 @@ body {
   flex-direction: column;
 
 }
+
+.v2 .wrapper {
+  min-width: 1200px;
+}
+
 
 .wrapper__content {
   flex: 1;
@@ -33,7 +40,10 @@ body {
   min-height: 77px;
   display: flex;
   justify-content: space-between;
+}
 
+.v2 .container {
+  width: 1160px;
 }
 
 .container_wraped {
@@ -47,9 +57,20 @@ body {
   justify-content: center;
 }
 
+
+.highlited {
+  color: #ec1e79;
+}
+
+.dark_background {
+  color: #fff;
+  background-color: #27273e;
+}
+
 .main_title {
   font-size: 49px;
   font-weight: 700;
+  padding-top: 10px;
 }
 
 main {
@@ -88,7 +109,7 @@ h5,
 h6 {
   margin: 0;
   padding: 0;
-  font-weight: normal;
+  /* font-weight: normal; */
 }
 
 h2 {
@@ -96,7 +117,10 @@ h2 {
   font-weight: 700;
 }
 
-
+h3 {
+  font-size: 18px;
+  font-weight: 700;
+}
 
 table {
   border-collapse: collapse;

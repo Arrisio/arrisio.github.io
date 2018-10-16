@@ -1,0 +1,80 @@
+.social_links {
+  /* flex: 0; */
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+
+
+.social_links__label {
+  font-family: "GothamPro";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+  /* color: #fff; */
+  margin-bottom: 7px;
+}
+
+.social_links__list {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.social_links__item {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  opacity: 0.75;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.dark_background .social_links__item {
+  background-color: #fff;
+}
+
+.social_links__link {
+  display: inline-block;
+  text-indent: 100%;
+  background-image: url("/img/social_links_icons.png");
+  background-repeat: no-repeat;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.social_links__link-vk {
+  background-position: -41px -39px;
+  width: 12px;
+  height: 7px;
+}
+
+.social_links__link-fb {
+  background-position: -77px -10px;
+  width: 6px;
+  height: 13px;
+}
+
+.social_links__link-google {
+  background-position: -10px -10px;
+  width: 15px;
+  height: 9px;
+}
+
+.social_links__link-twitter {
+  background-position: -10px -39px;
+  width: 11px;
+  height: 9px;
+}
+
+.social_links__link-mail {
+  background-position: -45px -10px;
+  width: 12px;
+  height: 9px;
+}
+
+.social_links__item:hover {
+  background-color: #ec1e79;
+}

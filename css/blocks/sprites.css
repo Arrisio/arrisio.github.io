@@ -1,0 +1,47 @@
+.sprite {
+	background: url('sprite.png') no-repeat top left;
+	width: 19px;
+	height: 16px;
+}
+
+.sprite.feed_icon_black {
+	background-position: 0 0;
+	width: 20px;
+	height: 18px;
+}
+
+.sprite.feed_icon_pink {
+	background-position: -30px 0;
+	width: 20px;
+	height: 18px;
+}
+
+.sprite.feed_icon_white {
+	background-position: -60px 0;
+	width: 20px;
+	height: 18px;
+}
+
+.sprite.main_icon_black {
+	background-position: -90px 0;
+	width: 17px;
+	height: 15px;
+}
+
+.sprite.main_icon_pink {
+	background-position: -117px 0;
+	width: 17px;
+	height: 15px;
+}
+
+.sprite.wallet_icon_black {
+	background-position: -144px 0;
+}
+
+.sprite.wallet_icon_pink {
+	background-position: -173px 0;
+}
+
+.sprite.wallet_icon_white {
+	background-position: -202px 0;
+}

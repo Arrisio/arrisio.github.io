@@ -5,9 +5,11 @@
 
 .features__features_list {
 	display: flex;
+	/* justify-content: space-evenly; */
 	justify-content: flex-start;
 }
 
 .features__feature_point {
-	margin: 0 40px 0 25px;
+	margin: 0 40px 0 20px;
+	width: calc(100%/3 - 80px);
 }

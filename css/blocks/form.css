@@ -23,6 +23,7 @@
 
 
 .form__all_input_fields_area {
+	user-select: none;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
