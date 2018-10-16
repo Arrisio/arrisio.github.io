@@ -24,6 +24,13 @@
   line-height: 18px;
 }
 
+
+.footer a {
+  font-weight: 700;
+  text-decoration: underline;
+  color: #ffffff;
+}
+
 .footer__logo_pic {
   max-height: 100%;
   display: flex;
